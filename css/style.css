@@ -1,0 +1,245 @@
+.customNav {
+  position: fixed;
+  width: 100%;
+  background-color: #E9EB9E !important;
+  background-size: cover;
+  z-index: 10;
+}
+
+
+.navoptions {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+.logo {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.right a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.right {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+h2, p {
+    padding-left: 75px;
+    color: white;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+.column {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+
+.profilepic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+
+footer {
+    background-color: #071013;
+    padding: 60px;
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-bottom: -15px;
+    margin-top: -15px;
+}
+
+.background {
+    background-image: linear-gradient(to bottom, #E08D79, #63382E);
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-bottom: -15px;
+    padding-bottom: 30px;
+}
+
+.graphicdesign {
+    background-color: #FFE19C;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 15px;
+    text-align: center;
+    font-weight: bold;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.uxui {
+    background-color: #8B7845;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 15px;
+    text-align: center;
+    font-weight: bold;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-rows: 5 3vw;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.row1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.row2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.gallery img {
+    width: 19%;
+    height: 19%;
+    object-fit: cover;
+    padding: 6px;
+}
+
+.row3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.row4 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.row5 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.row6 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.row7 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.row8 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.banner {
+    background-color: #690500;
+    color: white;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome {
+    font-size: 100px;
+    padding-top: 3px;
+    padding-bottom: 10px;
+    display: flex;
+}
+
+.thesis1 {
+    background-color: #EE5622;
+    display: flex;
+}
+
+.overlayimg1 {
+    background-image: url();
+}
+
+.preloader {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: 100000;
+    background-color: white;
+    top: 0;
+    display: flex;
+    align-items: center;
+    object-fit: cover;
+}
+  
+.loading {
+    animation: spin 3s ease;
+    width: 150px;
+    margin: 0 auto;
+}
+  
+@keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    50% {
+      transform: rotate(360deg);
+    }
+    100% {
+      transform: rotate(720deg);
+    }
+}
+
+.overlayimg {
+    
+}
