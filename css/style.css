@@ -89,11 +89,30 @@ h2 {
     display: flex;
     justify-content: center;
 }
+
+.container2 {
+    background-color: #1B2432;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-top: 50px; 
+}
+
+.container3 {
+    background-color: #54565A;
+    padding-top: 2px;
+    padding-bottom: 15px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+    border: solid black 5px;
+}
+
 .profilepic {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 20px;
+    margin-top: 40px;
+    border: black solid 5px;
 }
 
 footer {
@@ -106,7 +125,7 @@ footer {
 }
 
 .background {
-    background-image: linear-gradient(to bottom, #E08D79, #63382E);
+    background-image: url("../img/New Background-02.jpg");
     margin-left: -15px;
     margin-right: -15px;
     margin-bottom: -15px;
@@ -315,10 +334,6 @@ footer {
     }
 }
 
-.overlayimg {
-    
-}
-
 .profilepic {
     width: 65%;
 }
@@ -327,6 +342,7 @@ footer {
     font-size: 40px;
     margin-left: 140px;
     margin-top: 35px;
+    color: white;
 }
 
 .para {
