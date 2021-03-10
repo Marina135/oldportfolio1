@@ -6,6 +6,11 @@
   margin-right: -15px !important;
 }
 
+.mainheader {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 
 .navoptions {
     display: flex;
@@ -14,14 +19,32 @@
     margin-left: 10px;
 }
 
+.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 600px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.title {
+    display: flex;
+    margin-top: 20px;
+    font-size: 80px;
+    margin-left: 20px;
+}
+
 .logo {
-    height: 50px;
     display: flex;
-    align-items: center;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    padding-left: 10px;
+    margin-top: 18px;
+    height: 70px;
+    width: 70px;
 }
 
 .right a {
@@ -85,36 +108,31 @@ h2 {
     align-items: center;
 }
 
+.cards1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.cards2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
 .container {
     font-size: 50px;
     display: flex;
     justify-content: center;
 }
 
-.container2 {
-    background-color: #1B2432;
-    padding-top: 10px;
-    padding-bottom: 20px;
-    margin-top: 50px; 
-}
-
 .container4 {
     background-color: #CEB7B3;
-    margin-top: 10px;
-    margin-right: 40px;
     margin-bottom: 10px;
-    padding: 20px;
+    padding: 10px;
     border: solid black 1px;
-}
-
-.container3 {
-    background-color: #54565A;
-    padding-top: 2px;
-    padding-bottom: 15px;
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-top: 50px;
-    border: solid black 5px;
 }
 
 .profilepic {
@@ -127,25 +145,36 @@ h2 {
 
 footer {
     background-color: #001514;
+    height: 200px;
     padding: 60px;
     margin-left: -15px;
     margin-right: -15px;
     margin-bottom: -15px;
-    margin-top: -15px;
 }
 
 .background {
     background-image: url("../img/New Background-02.jpg");
-    background-repeat: no-repeat;
     margin-top: -5px;
     margin-left: -15px;
     margin-right: -15px;
-    margin-bottom: -15px;
     padding-bottom: 30px;
 }
 
+.background2 {
+    background-color: #983628; 
+    margin-left: 250px; 
+    margin-right: 250px; 
+    margin-top: -20px;
+    margin-bottom: -30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.background3 {
+    background-color: #E08D79;
+}
 .graphicdesign {
-    background-color: #FFE19C;
+    background-color: #EAF0CE;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 20px;
@@ -171,7 +200,7 @@ footer {
 }
 
 .uxui {
-    background-color: #8B7845;
+    background-color: #76877D;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 20px;
@@ -200,6 +229,7 @@ footer {
     display: flex !important;
     flex-direction: row;
     justify-content: center !important;
+    margin-bottom: 25px;
 }
 
 .btn {
@@ -336,27 +366,26 @@ footer {
 
 .subtitle {
     font-size: 40px;
-    margin-left: 140px;
+    margin-left: 30px;
     margin-top: 35px;
     color: white;
 }
 
 .subtitle2 {
-    font-size: 40px;
+    font-size: 30px;
     color: black;
     font-weight: bold;
 }
 
 .para {
     font-size: 20px;
-    margin-left: 70px;
-    margin-right: 80px;
+    margin-right: 20px;
     line-height: 40px;
 }
 
 .para2 {
     font-size: 20px;
-    line-height: 40px;
+    line-height: 30px;
 }
 
 .caro {
@@ -370,7 +399,7 @@ footer {
 
 .contact {
     font-size: 20px;
-    margin-left: 130px;
+    margin-left: 30px;
     margin-right: 80px;
     line-height: 40px;
     color: white;
@@ -432,8 +461,12 @@ footer {
 }
 
 .para {
-    font-size: 20px;
+    font-size: 18px;
     color: white;
     padding-left: 40px;
     padding-right: 40px;   
+}
+
+.zoom:hover {
+    transform: scale(1.5);
 }
