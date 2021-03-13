@@ -469,6 +469,20 @@ footer {
     padding-right: 40px;   
 }
 
+.zoom {
+    transition: transform 0.2s;
+    margin: auto;
+}
+
 .zoom:hover {
+    transform: scale(1.5);
+}
+
+.zoom2 {
+    transition: transform 0.2s ease-in-out;
+}
+
+.zoom2:hover {
+    opacity: 0.5;
     transform: scale(1.5);
 }
