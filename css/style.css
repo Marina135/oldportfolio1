@@ -370,7 +370,7 @@ footer {
     font-size: 40px;
     margin-left: 30px;
     margin-top: 35px;
-    color: white;
+    color: black;
 }
 
 .subtitle2 {
@@ -404,7 +404,7 @@ footer {
     margin-left: 30px;
     margin-right: 80px;
     line-height: 40px;
-    color: white;
+    color: black;
 }
 
 .wdp {
@@ -464,7 +464,7 @@ footer {
 
 .para {
     font-size: 18px;
-    color: white;
+    color: black;
     padding-left: 40px;
     padding-right: 40px;   
 }
@@ -480,6 +480,7 @@ footer {
 
 .zoom2 {
     transition: transform 0.2s ease-in-out;
+    fill: black;
 }
 
 .zoom2:hover {
