@@ -483,3 +483,8 @@ footer {
     opacity: 0.5;
     transform: scale(1.5);
 }
+
+.active2 {
+    border: #D2FF96 solid 4px; 
+    border-radius: 60px;
+}
