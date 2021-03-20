@@ -142,24 +142,22 @@ h2 {
 
 footer {
     background-color: #001514;
-    height: 200px;
     padding: 60px;
     margin-left: -15px;
     margin-right: -15px;
-    margin-bottom: -15px;
 }
 
 .background {
-    background-image: url("../img/background 2-03.jpg");
+    background-image: url("../img/New Background-04.jpg");
     background-repeat: inherit;
-    margin-top: -5px;
+    margin-top: -13px;
     margin-left: -15px;
     margin-right: -15px;
     padding-bottom: 30px;
 }
 
 .background2 {
-    background-color: #9B3D12; 
+    background-color: #DDAE7E; 
     margin-left: 250px; 
     margin-right: 250px; 
     margin-top: -20px;
@@ -169,7 +167,7 @@ footer {
 }
 
 .background3 {
-    background-color: #DDAE7E;
+    background-color: #C6E0FF;
 }
 .graphicdesign {
     background-color: #EAF0CE;
@@ -230,6 +228,11 @@ footer {
     margin-bottom: 25px;
 }
 
+.button {
+    width: 250px; 
+    height: 250px; 
+    margin: 20px;
+}
 .btn {
     display: flex;
     flex-direction: row;
@@ -476,15 +479,17 @@ footer {
 
 .zoom2 {
     transition: transform 0.2s ease-in-out;
-    fill: black;
 }
 
 .zoom2:hover {
     opacity: 0.5;
     transform: scale(1.5);
+    background-color: black;
+    border-radius: 200px;
+    margin: 20px;
 }
 
 .active2 {
-    border: #D2FF96 solid 4px; 
+    border: #001514 solid 4px; 
     border-radius: 60px;
 }
