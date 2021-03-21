@@ -35,9 +35,11 @@
 
 .title {
     display: flex;
+    flex-direction: center;
     margin-top: 20px;
     font-size: 80px;
     margin-left: 20px;
+    font-family: Mermaid Bold;
 }
 
 .logo {
@@ -62,6 +64,7 @@
     flex-direction: row;
     justify-content: flex-end !important;
     color: white !important;
+    font-family: Avenir;
 }
 
 .right {
@@ -72,6 +75,11 @@
 
 h2 {
     font-size: 50px;
+    font-family: Avenir;
+}
+
+h4 {
+    font-family: Avenir;
 }
 
 .column {
@@ -167,7 +175,7 @@ footer {
 }
 
 .background3 {
-    background-color: #C6E0FF;
+    background-color: #FF8552;
 }
 .graphicdesign {
     background-color: #EAF0CE;
