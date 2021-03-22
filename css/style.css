@@ -158,9 +158,10 @@ footer {
 .background {
     background-image: url("../img/New Background-04.jpg");
     background-repeat: inherit;
-    margin-top: -13px;
+    margin-top: -20px;
     margin-left: -15px;
     margin-right: -15px;
+    margin-bottom: -10px;
     padding-bottom: 30px;
 }
 
