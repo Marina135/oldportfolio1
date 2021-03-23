@@ -156,7 +156,7 @@ footer {
 }
 
 .background {
-    background-image: url("../img/New Background-04.jpg");
+    background-image: url("../img/New background-04.jpg");
     background-repeat: inherit;
     margin-top: -20px;
     margin-left: -15px;
@@ -170,13 +170,14 @@ footer {
     margin-left: 250px; 
     margin-right: 250px; 
     margin-top: -20px;
-    margin-bottom: -30px;
+    margin-bottom: -20px;
     padding-top: 25px;
     padding-bottom: 25px;
 }
 
 .background3 {
     background-color: #FF8552;
+    margin-right: -15px;
 }
 .graphicdesign {
     background-color: #EAF0CE;
