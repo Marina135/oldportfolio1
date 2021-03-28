@@ -499,6 +499,14 @@ footer {
     margin: 20px;
 }
 
+.zoom3 {
+    transition: transform 0.2s ease-in-out;
+}
+
+.zoom3:hover {
+    transform: scale(2);
+}
+
 .active2 {
     border: #001514 solid 4px; 
     border-radius: 60px;
