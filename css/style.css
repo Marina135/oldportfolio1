@@ -511,3 +511,8 @@ footer {
     border: #001514 solid 4px; 
     border-radius: 60px;
 }
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
